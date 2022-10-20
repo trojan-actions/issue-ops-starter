@@ -23,7 +23,7 @@ body:
       label: Template Repository
       description: Select Template Repository that you want to use
       options:
-        - sample-template-repository-universe
+        - template-repo
     validations:
       required: true
   - type: input
