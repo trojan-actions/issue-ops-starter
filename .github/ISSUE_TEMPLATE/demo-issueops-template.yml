@@ -23,7 +23,7 @@ body:
       label: Template Repository
       description: Select Template Repository that you want to use
       options:
-        - template-repo
+        - trojan-actions/template-repo
     validations:
       required: false
   - type: input
