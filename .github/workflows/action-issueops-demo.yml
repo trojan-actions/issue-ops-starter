@@ -39,6 +39,7 @@ jobs:
             let enableForking = bodySplit[26].includes("X")
             
             console.log("New repo: " + newRepo + " Template Repo: " + templateRepo + " Teams: " + teams)
+            console.log(context.payload.organization.login)
             
             try {
               await github.rest.repos.createUsingTemplate({
