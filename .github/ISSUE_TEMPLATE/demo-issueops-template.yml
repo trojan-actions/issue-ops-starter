@@ -23,9 +23,9 @@ body:
       label: Template Repository
       description: Select Template Repository that you want to use
       options:
-        - trojan-actions/template-repo
+        - template-repo
     validations:
-      required: false
+      required: true
   - type: input
     id: team
     attributes:
